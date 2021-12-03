@@ -133,7 +133,12 @@ components:
     form:
       example:
         _id: _id
+        attr: attr
       properties:
         _id:
           type: string
+        attr:
+          type: string
+      required:
+      - attr
       type: object
